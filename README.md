@@ -1,4 +1,4 @@
-# taxiflow
+# Taxiflow
 Taxiflow
 
 Applied machine learning for forecasting NYC taxi demand
