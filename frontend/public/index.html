@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TaxiFlow Forecast Map</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/deck.gl@9.0.35/dist.min.js"></script>
+  </head>
+  <body>
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div id="mapTooltip" class="map-tooltip" aria-hidden="true"></div>
+
+      <details class="logo-menu">
+        <summary aria-label="Open menu">
+          <img src="./assets/ridecasts.png" alt="Ridecasts" />
+        </summary>
+        <div class="menu-card">
+          <a href="./method.html">Method</a>
+        </div>
+      </details>
+
+      <section id="ranksPanel" class="overlay ranks">
+        <div class="block compact">
+          <h2>Top Zones</h2>
+          <ol id="topZones"></ol>
+          <div class="legend">
+            <h3>demand</h3>
+            <div class="legend-bar" aria-hidden="true">
+              <span class="seg c1"></span>
+              <span class="seg c2"></span>
+              <span class="seg c3"></span>
+              <span class="seg c4"></span>
+              <span class="seg c5"></span>
+              <span class="seg c6"></span>
+            </div>
+            <div class="legend-scale">
+              <span>low</span>
+              <span>high</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="overlay playback">
+        <button id="playBtn" type="button" aria-label="Play/Pause">▶</button>
+        <div id="hourLabel" class="playback-time">-</div>
+        <input id="hourSlider" type="range" min="0" max="0" value="0" />
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

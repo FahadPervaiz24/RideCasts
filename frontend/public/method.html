@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Method</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <details class="logo-menu">
+      <summary aria-label="Open menu">
+        <img src="./assets/ridecasts.png" alt="Ridecasts" />
+      </summary>
+      <div class="menu-card">
+        <a href="./index.html">Forecast</a>
+      </div>
+    </details>
+
+    <main class="page">
+      <section class="page-card">
+        <h1>Method</h1>
+        <p>
+          Forecasts are generated hourly using a LightGBM regression model trained on
+          2023-2024 TLC demand with weather and calendar features. The model predicts
+          48 hours ahead for every taxi zone.
+        </p>
+
+        <h2>Model Benchmarks</h2>
+        <p>
+          Quick comparison of the baselines vs. tuned LightGBM and XGBoost. Lower
+          error indicates better performance on the validation window.
+        </p>
+        <img
+          class="report-img"
+          src="./data/reports/model_benchmarks.png"
+          alt="Model benchmarks chart"
+        />
+
+        <h2>Global Feature Impact</h2>
+        <p>
+          SHAP beeswarm plot showing which inputs most influence predictions. It
+          highlights calendar patterns and weather effects at a glance.
+        </p>
+        <img
+          class="report-img"
+          src="./assets/shap/shap_summary_beeswarm.png"
+          alt="SHAP summary beeswarm"
+        />
+
+        <h2>Trips vs. Weather</h2>
+        <p>
+          Citywide daily demand with 7-day and 28-day smoothing above, and temperature
+          vs. precipitation below for seasonal context.
+        </p>
+        <img
+          class="report-img"
+          src="./data/reports/trips_weather_two_panel.png"
+          alt="Trips and weather two panel plot"
+        />
+      </section>
+    </main>
+  </body>
+</html>

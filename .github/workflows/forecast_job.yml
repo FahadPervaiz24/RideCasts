@@ -1,0 +1,52 @@
+name: Forecast Job
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *" # hourly at :15 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  forecast:
+    if: ${{ vars.ENABLE_SCHEDULE == 'true' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy pyarrow lightgbm
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Generate forecast
+        run: |
+          python scripts/serve/generate_forecast.py \
+            --out data/forecast/forecast_latest.json \
+            --model-path models/LGBM/lightgbm_week_hour_20260210_132138.txt \
+            --features-path data/processed/features_hourly.parquet \
+            --timezone America/New_York \
+            --latitude 40.7128 \
+            --longitude -74.0060 \
+            --horizon-hours 48
+
+      - name: Copy forecast into frontend
+        run: |
+          mkdir -p frontend/public/data
+          cp data/forecast/forecast_latest.json frontend/public/data/forecast_latest.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/forecast/forecast_latest.json frontend/public/data/forecast_latest.json
+          git commit -m "Update forecast" || exit 0
+          git push

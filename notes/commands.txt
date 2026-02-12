@@ -1,0 +1,12 @@
+python3 ingest_weather.py --start 2024-01-01 --end 2024-01-31
+
+
+Normalize with output dir:
+    python3 scripts/normalize_hvfhv.py --inputs data/trip_parquets/fhvhv_2023_prenorm/ --outdir data/trip_parquets/normalized_pre_aggregation
+
+Aggregate a folder (yellow + normalized hvfhv):
+    python3 scripts/ingest_tlc.py \
+    --inputs data/trip_parquets/normalized_pre_aggregation \
+    --out data/trip_parquets/processed/tlc_hourly_zone2023.parquet \
+    --append
+
