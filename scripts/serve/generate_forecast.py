@@ -14,6 +14,8 @@ import lightgbm as lgb
 
 MODEL_DEFAULT = "models/LGBM/lightgbm_week_hour_20260210_132138.txt"
 FEATURES_DEFAULT = "data/processed/features_hourly.parquet"
+BASELINE_DEFAULT = "data/serving/baseline_week_hour_mean.csv"
+BASELINE_META_DEFAULT = "data/serving/baseline_meta.json"
 TIMEZONE_DEFAULT = "America/New_York"
 HORIZON_DEFAULT = 48
 
@@ -154,7 +156,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate 48-hour zone forecasts.")
     parser.add_argument("--out", required=True, help="Output JSON path.")
     parser.add_argument("--model-path", default=MODEL_DEFAULT, help="LightGBM model path.")
-    parser.add_argument("--features-path", default=FEATURES_DEFAULT, help="features_hourly parquet.")
+    parser.add_argument("--features-path", default=FEATURES_DEFAULT, help="Optional features parquet for baseline.")
+    parser.add_argument("--baseline-path", default=BASELINE_DEFAULT, help="Serving baseline CSV.")
+    parser.add_argument("--baseline-meta", default=BASELINE_META_DEFAULT, help="Serving baseline meta JSON.")
     parser.add_argument("--horizon-hours", type=int, default=HORIZON_DEFAULT, help="Forecast horizon.")
     parser.add_argument("--timezone", default=TIMEZONE_DEFAULT, help="Timezone, e.g. America/New_York.")
     parser.add_argument("--latitude", type=float, default=40.7128, help="Open-Meteo latitude.")
@@ -167,21 +171,31 @@ def main() -> None:
     args = parser.parse_args()
 
     model = lgb.Booster(model_file=args.model_path)
-    features_df = pd.read_parquet(args.features_path, columns=["hour", "PULocationID", "trip_count"])
 
-    zone_ids = np.sort(features_df["PULocationID"].unique())
-    if len(zone_ids) == 0:
-        raise ValueError("No zones found in features file.")
+    try:
+        features_df = pd.read_parquet(args.features_path, columns=["hour", "PULocationID", "trip_count"])
+        zone_ids = np.sort(features_df["PULocationID"].unique())
+        if len(zone_ids) == 0:
+            raise ValueError("No zones found in features file.")
+
+        baseline_source = features_df.copy()
+        baseline_source["hour"] = pd.to_datetime(baseline_source["hour"])
+        baseline_source["hour_of_day"] = baseline_source["hour"].dt.hour
+        baseline_source["day_of_week"] = baseline_source["hour"].dt.dayofweek
+        baseline_source["week_hour"] = (
+            baseline_source["day_of_week"] * 24 + baseline_source["hour_of_day"]
+        )
+        baseline_lookup, baseline_global_mean = build_baseline_lookup(baseline_source)
+        baseline_source_name = "features"
+    except FileNotFoundError:
+        baseline_lookup = pd.read_csv(args.baseline_path)
+        meta = json.loads(Path(args.baseline_meta).read_text())
+        baseline_global_mean = float(meta["baseline_global_mean"])
+        zone_ids = np.array(meta["zone_ids"], dtype=int)
+        baseline_source_name = "serving_baseline"
 
     tz = ZoneInfo(args.timezone)
     start_hour = next_top_of_hour(datetime.now(tz))
-
-    baseline_source = features_df.copy()
-    baseline_source["hour"] = pd.to_datetime(baseline_source["hour"])
-    baseline_source["hour_of_day"] = baseline_source["hour"].dt.hour
-    baseline_source["day_of_week"] = baseline_source["hour"].dt.dayofweek
-    baseline_source["week_hour"] = baseline_source["day_of_week"] * 24 + baseline_source["hour_of_day"]
-    baseline_lookup, baseline_global_mean = build_baseline_lookup(baseline_source)
 
     if args.dummy_weather:
         weather_df = make_dummy_weather(start_hour, args.horizon_hours)
@@ -222,6 +236,7 @@ def main() -> None:
         "prediction_count": int(len(predictions)),
         "model_path": args.model_path,
         "weather_source": weather_source,
+        "baseline_source": baseline_source_name,
         "predictions": predictions,
     }
 

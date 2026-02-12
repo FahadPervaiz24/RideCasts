@@ -13,6 +13,9 @@ data/raw/
 data/processed/
 *.csv
 *.parquet
+!data/serving/
+!data/serving/*.csv
+!data/serving/*.json
 
 # OS/editor
 .DS_Store

@@ -32,7 +32,8 @@ jobs:
           python scripts/serve/generate_forecast.py \
             --out data/forecast/forecast_latest.json \
             --model-path models/LGBM/lightgbm_week_hour_20260210_132138.txt \
-            --features-path data/processed/features_hourly.parquet \
+            --baseline-path data/serving/baseline_week_hour_mean.csv \
+            --baseline-meta data/serving/baseline_meta.json \
             --timezone America/New_York \
             --latitude 40.7128 \
             --longitude -74.0060 \
