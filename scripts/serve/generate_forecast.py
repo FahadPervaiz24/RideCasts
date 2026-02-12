@@ -172,27 +172,38 @@ def main() -> None:
 
     model = lgb.Booster(model_file=args.model_path)
 
-    try:
-        features_df = pd.read_parquet(args.features_path, columns=["hour", "PULocationID", "trip_count"])
-        zone_ids = np.sort(features_df["PULocationID"].unique())
-        if len(zone_ids) == 0:
-            raise ValueError("No zones found in features file.")
+    baseline_path = Path(args.baseline_path)
+    baseline_meta_path = Path(args.baseline_meta)
 
-        baseline_source = features_df.copy()
-        baseline_source["hour"] = pd.to_datetime(baseline_source["hour"])
-        baseline_source["hour_of_day"] = baseline_source["hour"].dt.hour
-        baseline_source["day_of_week"] = baseline_source["hour"].dt.dayofweek
-        baseline_source["week_hour"] = (
-            baseline_source["day_of_week"] * 24 + baseline_source["hour_of_day"]
-        )
-        baseline_lookup, baseline_global_mean = build_baseline_lookup(baseline_source)
-        baseline_source_name = "features"
-    except FileNotFoundError:
+    if baseline_path.exists() and baseline_meta_path.exists():
         baseline_lookup = pd.read_csv(args.baseline_path)
-        meta = json.loads(Path(args.baseline_meta).read_text())
+        meta = json.loads(baseline_meta_path.read_text())
         baseline_global_mean = float(meta["baseline_global_mean"])
         zone_ids = np.array(meta["zone_ids"], dtype=int)
         baseline_source_name = "serving_baseline"
+    else:
+        try:
+            features_df = pd.read_parquet(
+                args.features_path, columns=["hour", "PULocationID", "trip_count"]
+            )
+            zone_ids = np.sort(features_df["PULocationID"].unique())
+            if len(zone_ids) == 0:
+                raise ValueError("No zones found in features file.")
+
+            baseline_source = features_df.copy()
+            baseline_source["hour"] = pd.to_datetime(baseline_source["hour"])
+            baseline_source["hour_of_day"] = baseline_source["hour"].dt.hour
+            baseline_source["day_of_week"] = baseline_source["hour"].dt.dayofweek
+            baseline_source["week_hour"] = (
+                baseline_source["day_of_week"] * 24 + baseline_source["hour_of_day"]
+            )
+            baseline_lookup, baseline_global_mean = build_baseline_lookup(baseline_source)
+            baseline_source_name = "features"
+        except FileNotFoundError:
+            raise FileNotFoundError(
+                "Missing features parquet and serving baseline artifacts. "
+                "Provide data/serving/baseline_week_hour_mean.csv and baseline_meta.json."
+            )
 
     tz = ZoneInfo(args.timezone)
     start_hour = next_top_of_hour(datetime.now(tz))
