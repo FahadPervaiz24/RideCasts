@@ -1,4 +1,4 @@
-# Taxiflow: Notes to Self
+# RideCasts: Notes to Self
 
 ## Issues hit
 - DST gap hour shows up (expected), left as‑is.

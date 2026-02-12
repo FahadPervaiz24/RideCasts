@@ -1,9 +1,9 @@
-# Taxiflow
+# RideCasts
 
 Applied machine learning for forecasting NYC taxi demand.
 
 ## Overview
-Taxiflow is an end-to-end time-series ML project that forecasts short-horizon hourly
+RideCasts is an end-to-end time-series ML project that forecasts short-horizon hourly
 demand in New York City using historical trip data and real weather signals. The goal
 is a reproducible pipeline with temporal validation and clear interpretability.
 
