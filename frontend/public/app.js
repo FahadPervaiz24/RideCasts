@@ -91,7 +91,8 @@ function setList(root, rows) {
   rows.forEach((r) => {
     const li = document.createElement("li");
     const zoneName = state.zoneNameById.get(Number(r.PULocationID)) || `Zone ${r.PULocationID}`;
-    li.textContent = `${zoneName}: ${Math.round(r.prediction)}`;
+    const trips = Math.round(r.prediction).toLocaleString("en-US");
+    li.textContent = `${zoneName}: ${trips} trips`;
     root.appendChild(li);
   });
 }
