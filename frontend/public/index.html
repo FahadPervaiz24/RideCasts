@@ -45,6 +45,7 @@
       <section id="ranksPanel" class="overlay ranks">
         <div class="block compact">
           <h2>Top Zones</h2>
+          <div class="tagline">NYC taxi + rideshare demand, forecast 48 hours ahead.</div>
           <ol id="topZones"></ol>
           <div class="legend">
             <h3>demand</h3>
@@ -69,6 +70,14 @@
         <div id="hourLabel" class="playback-time">-</div>
         <input id="hourSlider" type="range" min="0" max="0" value="0" />
       </section>
+
+      <details class="info-pop">
+        <summary aria-label="About RideCasts">i</summary>
+        <div class="info-card">
+          Live 48-hour forecasts by TLC zone. Data updates hourly using a LightGBM
+          model trained on 2023–2024 TLC trips plus weather.
+        </div>
+      </details>
     </div>
 
     <script src="./app.js"></script>

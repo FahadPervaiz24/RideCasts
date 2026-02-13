@@ -182,11 +182,13 @@ function stopPlayback() {
     state.playTimer = null;
   }
   el.playBtn.textContent = "▶";
+  el.playBtn.setAttribute("aria-label", "Play");
 }
 
 function startPlayback() {
   stopPlayback();
-  el.playBtn.textContent = "⏸";
+  el.playBtn.textContent = "II";
+  el.playBtn.setAttribute("aria-label", "Pause");
   state.playTimer = setInterval(() => {
     const max = Math.max(0, state.hours.length - 1);
     let next = state.selectedHourIndex + 1;

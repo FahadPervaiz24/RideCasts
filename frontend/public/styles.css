@@ -19,6 +19,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "IBM Plex Sans", "Segoe UI", Tahoma, sans-serif;
+  overscroll-behavior: none;
 }
 
 h1 {
@@ -59,7 +60,7 @@ h1 {
 .playback {
   left: 50%;
   transform: translateX(-50%);
-  bottom: max(14px, env(safe-area-inset-bottom));
+  bottom: max(14px, calc(env(safe-area-inset-bottom) + 10px));
   display: grid;
   grid-template-columns: 38px 1fr;
   grid-template-rows: auto auto;
@@ -210,7 +211,8 @@ li {
 
 .map-wrap {
   position: relative;
-  height: 100vh;
+  height: 100dvh;
+  min-height: 100vh;
 }
 
 .map-tooltip {
@@ -301,6 +303,53 @@ li {
   width: 100%;
   height: 100%;
   background: #080d11;
+  touch-action: none;
+}
+
+.tagline {
+  margin: 6px 0 8px;
+  color: #cfcfcf;
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+
+.info-pop {
+  position: absolute;
+  right: max(12px, env(safe-area-inset-right));
+  top: max(120px, calc(env(safe-area-inset-top) + 110px));
+  z-index: 20;
+}
+
+.info-pop summary {
+  list-style: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(20, 20, 20, 0.85);
+  border: 1px solid #333;
+  color: #e7e7e7;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.info-pop summary::-webkit-details-marker {
+  display: none;
+}
+
+.info-card {
+  margin-top: 8px;
+  width: min(240px, calc(100vw - 28px));
+  background: rgba(12, 12, 12, 0.92);
+  border: 1px solid #2f2f2f;
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: #d8d8d8;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
 .page {
@@ -406,7 +455,7 @@ li {
   }
 
   .playback {
-    bottom: max(20px, calc(env(safe-area-inset-bottom) + 12px));
+    bottom: max(24px, calc(env(safe-area-inset-bottom) + 16px));
     width: 50vw;
     max-width: 260px;
     min-width: 200px;
@@ -479,6 +528,10 @@ li {
 
   .menu-card {
     min-width: 130px;
+  }
+
+  .info-pop {
+    top: max(118px, calc(env(safe-area-inset-top) + 102px));
   }
 }
 
