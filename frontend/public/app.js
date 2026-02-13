@@ -38,7 +38,32 @@ const el = {
   hourLabel: document.getElementById("hourLabel"),
   topZones: document.getElementById("topZones"),
   tooltip: document.getElementById("mapTooltip"),
+  loadingOverlay: document.getElementById("loadingOverlay"),
 };
+
+function syncVisualViewportVars() {
+  const vv = window.visualViewport;
+  if (!vv) return;
+  document.documentElement.style.setProperty("--vvh", `${Math.round(vv.height)}px`);
+  document.documentElement.style.setProperty("--vv-top", `${Math.round(vv.offsetTop)}px`);
+}
+
+function hideLoading() {
+  if (!el.loadingOverlay) return;
+  el.loadingOverlay.classList.add("hidden");
+}
+
+function showLoadingError(message) {
+  if (!el.loadingOverlay) return;
+  el.loadingOverlay.classList.remove("hidden");
+  el.loadingOverlay.classList.add("error");
+  el.loadingOverlay.innerHTML = `
+    <div class="loading-card">
+      <div class="loading-title">Unable to load forecast</div>
+      <div class="loading-sub">${message}</div>
+    </div>
+  `;
+}
 
 function clamp(val, min, max) {
   return Math.min(max, Math.max(min, val));
@@ -199,6 +224,12 @@ function startPlayback() {
 }
 
 async function init() {
+  syncVisualViewportVars();
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", syncVisualViewportVars);
+    window.visualViewport.addEventListener("scroll", syncVisualViewportVars);
+  }
+
   const [zonesRes, forecast] = await Promise.all([
     fetch(ZONES_URL).then((r) => r.json()),
     fetchFirstAvailable(FORECAST_URLS),
@@ -260,6 +291,7 @@ async function init() {
   });
 
   updateHour(0);
+  hideLoading();
 
   window.addEventListener("resize", () => {
     const mobile = isMobileViewport();
@@ -272,6 +304,5 @@ async function init() {
 
 init().catch((err) => {
   console.error(err);
-  document.body.innerHTML =
-    '<div style="padding:24px;color:#fff;background:#111;">Failed to load map data. Check console and file paths.</div>';
+  showLoadingError("Please refresh in a moment.");
 });

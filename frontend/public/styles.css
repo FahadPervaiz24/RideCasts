@@ -219,6 +219,73 @@ li {
   min-height: 100vh;
 }
 
+.loading-overlay {
+  position: fixed;
+  top: var(--vv-top, 0px);
+  left: 0;
+  right: 0;
+  height: var(--vvh, 100dvh);
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  background: rgba(8, 8, 8, 0.78);
+  backdrop-filter: blur(4px);
+  transition: opacity 220ms ease;
+}
+
+.loading-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-stack {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+
+.loading-logo {
+  width: 108px;
+  height: 108px;
+  display: block;
+}
+
+.loading-spinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.24);
+  border-top-color: #ffffff;
+  animation: loading-spin 0.85s linear infinite;
+}
+
+.loading-card {
+  width: min(320px, calc(100vw - 28px));
+  border: 1px solid #2f2f2f;
+  border-radius: 12px;
+  background: rgba(14, 14, 14, 0.95);
+  padding: 14px 16px;
+  text-align: center;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-overlay.error .loading-card {
+  border-color: #8a3a3a;
+}
+
+.loading-overlay.error .loading-title {
+  color: #ffb7b7;
+}
+
 .map-tooltip {
   position: absolute;
   top: 0;
