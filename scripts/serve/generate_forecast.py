@@ -39,7 +39,12 @@ CAT_COLS = ["PULocationID", "week_hour", "month", "week_of_year"]
 
 
 def next_top_of_hour(local_now: datetime) -> datetime:
-    return local_now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+    # Compute in UTC to avoid creating nonexistent local wall times during DST transitions.
+    next_utc = (
+        local_now.astimezone(timezone.utc).replace(minute=0, second=0, microsecond=0)
+        + timedelta(hours=1)
+    )
+    return next_utc.astimezone(local_now.tzinfo)
 
 
 def fetch_open_meteo_hourly(
@@ -54,7 +59,9 @@ def fetch_open_meteo_hourly(
         "longitude": longitude,
         "hourly": "temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m",
         "forecast_days": 3,
-        "timezone": timezone_name,
+        # Request UTC timestamps from Open-Meteo, then convert to local timezone.
+        # This avoids DST-localization failures for nonexistent/ambiguous local wall times.
+        "timezone": "GMT",
     }
     url = "https://api.open-meteo.com/v1/forecast?" + urlencode(params)
     with urlopen(url, timeout=30) as resp:
@@ -67,17 +74,20 @@ def fetch_open_meteo_hourly(
     if "time" not in hourly:
         raise ValueError("Open-Meteo response missing hourly.time.")
 
+    hours_utc = pd.to_datetime(hourly["time"], utc=True, errors="coerce")
+    if hours_utc.isna().any():
+        raise ValueError("Open-Meteo response contains invalid hourly.time values.")
+
     df = pd.DataFrame(
         {
-            "hour": pd.to_datetime(hourly["time"]),
+            "hour": hours_utc,
             "temperature": hourly["temperature_2m"],
             "relative_humidity": hourly["relative_humidity_2m"],
             "precipitation": hourly["precipitation"],
             "wind_speed": hourly["wind_speed_10m"],
         }
     )
-    # Open-Meteo times are local to the requested timezone when timezone is provided.
-    df["hour"] = pd.to_datetime(df["hour"]).dt.tz_localize(ZoneInfo(timezone_name))
+    df["hour"] = df["hour"].dt.tz_convert(ZoneInfo(timezone_name))
     df = df.sort_values("hour")
     df = df[df["hour"] >= start_hour].head(horizon_hours).reset_index(drop=True)
     if len(df) < horizon_hours:
