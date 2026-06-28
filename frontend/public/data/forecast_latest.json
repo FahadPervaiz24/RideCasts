@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T22:15:36.311887+00:00",
+  "generated_at": "2026-06-28T00:13:55.701926+00:00",
   "timezone": "America/New_York",
   "horizon_hours": 48,
   "zone_count": 263,
@@ -8,16 +8,6 @@
   "weather_source": "open-meteo",
   "baseline_source": "serving_baseline",
   "predictions": [
-    {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 1,
-      "prediction": 2
-    },
-    {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 1,
-      "prediction": 1
-    },
     {
       "hour": "2026-06-27T21:00:00-04:00",
       "PULocationID": 1,
@@ -249,13 +239,13 @@
       "prediction": 2
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 2,
-      "prediction": 1
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 1,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 2,
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 1,
       "prediction": 1
     },
     {
@@ -489,14 +479,14 @@
       "prediction": 1
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 3,
-      "prediction": 74
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 2,
+      "prediction": 1
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 3,
-      "prediction": 75
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 2,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -729,14 +719,14 @@
       "prediction": 65
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 4,
-      "prediction": 161
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 3,
+      "prediction": 54
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 4,
-      "prediction": 155
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 3,
+      "prediction": 52
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -969,14 +959,14 @@
       "prediction": 75
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 5,
-      "prediction": 13
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 4,
+      "prediction": 70
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 5,
-      "prediction": 13
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 4,
+      "prediction": 66
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -1209,14 +1199,14 @@
       "prediction": 6
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 6,
-      "prediction": 18
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 5,
+      "prediction": 5
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 6,
-      "prediction": 17
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 5,
+      "prediction": 4
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -1449,14 +1439,14 @@
       "prediction": 15
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 7,
-      "prediction": 437
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 6,
+      "prediction": 12
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 7,
-      "prediction": 422
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 6,
+      "prediction": 10
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -1689,14 +1679,14 @@
       "prediction": 285
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 8,
-      "prediction": 4
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 7,
+      "prediction": 256
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 8,
-      "prediction": 3
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 7,
+      "prediction": 236
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -1929,14 +1919,14 @@
       "prediction": 2
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 9,
-      "prediction": 29
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 8,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 9,
-      "prediction": 26
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 8,
+      "prediction": 2
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -2169,14 +2159,14 @@
       "prediction": 27
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 10,
-      "prediction": 110
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 9,
+      "prediction": 21
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 10,
-      "prediction": 110
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 9,
+      "prediction": 16
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -2409,14 +2399,14 @@
       "prediction": 82
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 11,
-      "prediction": 41
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 10,
+      "prediction": 72
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 11,
-      "prediction": 39
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 10,
+      "prediction": 65
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -2649,14 +2639,14 @@
       "prediction": 32
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 12,
-      "prediction": 7
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 11,
+      "prediction": 27
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 12,
-      "prediction": 4
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 11,
+      "prediction": 23
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -2889,14 +2879,14 @@
       "prediction": 12
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 13,
-      "prediction": 227
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 12,
+      "prediction": 5
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 13,
-      "prediction": 183
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 12,
+      "prediction": 3
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -3129,14 +3119,14 @@
       "prediction": 232
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 14,
-      "prediction": 210
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 13,
+      "prediction": 168
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 14,
-      "prediction": 192
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 13,
+      "prediction": 176
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -3369,14 +3359,14 @@
       "prediction": 157
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 15,
-      "prediction": 30
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 14,
+      "prediction": 133
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 15,
-      "prediction": 28
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 14,
+      "prediction": 121
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -3609,14 +3599,14 @@
       "prediction": 20
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 16,
-      "prediction": 67
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 15,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 16,
-      "prediction": 65
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 15,
+      "prediction": 15
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -3849,14 +3839,14 @@
       "prediction": 62
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 17,
-      "prediction": 389
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 16,
+      "prediction": 48
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 17,
-      "prediction": 382
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 16,
+      "prediction": 42
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -4089,14 +4079,14 @@
       "prediction": 267
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 18,
-      "prediction": 175
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 17,
+      "prediction": 250
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 18,
-      "prediction": 178
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 17,
+      "prediction": 226
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -4329,14 +4319,14 @@
       "prediction": 137
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 19,
-      "prediction": 28
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 18,
+      "prediction": 120
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 19,
-      "prediction": 26
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 18,
+      "prediction": 110
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -4569,14 +4559,14 @@
       "prediction": 23
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 20,
-      "prediction": 112
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 19,
+      "prediction": 19
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 20,
-      "prediction": 116
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 19,
+      "prediction": 15
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -4809,14 +4799,14 @@
       "prediction": 81
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 21,
-      "prediction": 89
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 20,
+      "prediction": 70
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 21,
-      "prediction": 82
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 20,
+      "prediction": 73
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -5049,14 +5039,14 @@
       "prediction": 74
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 22,
-      "prediction": 120
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 21,
+      "prediction": 64
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 22,
-      "prediction": 113
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 21,
+      "prediction": 56
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -5289,14 +5279,14 @@
       "prediction": 101
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 23,
-      "prediction": 36
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 22,
+      "prediction": 88
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 23,
-      "prediction": 37
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 22,
+      "prediction": 81
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -5529,14 +5519,14 @@
       "prediction": 49
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 24,
-      "prediction": 70
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 23,
+      "prediction": 33
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 24,
-      "prediction": 67
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 23,
+      "prediction": 34
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -5769,14 +5759,14 @@
       "prediction": 52
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 25,
-      "prediction": 276
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 24,
+      "prediction": 47
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 25,
-      "prediction": 249
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 24,
+      "prediction": 42
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -6009,14 +5999,14 @@
       "prediction": 166
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 26,
-      "prediction": 84
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 25,
+      "prediction": 160
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 26,
-      "prediction": 91
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 25,
+      "prediction": 141
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -6249,14 +6239,14 @@
       "prediction": 192
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 27,
-      "prediction": 8
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 26,
+      "prediction": 183
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 27,
-      "prediction": 7
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 26,
+      "prediction": 157
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -6489,14 +6479,14 @@
       "prediction": 5
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 28,
-      "prediction": 83
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 27,
+      "prediction": 3
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 28,
-      "prediction": 80
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 27,
+      "prediction": 3
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -6729,14 +6719,14 @@
       "prediction": 67
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 29,
-      "prediction": 72
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 28,
+      "prediction": 56
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 29,
-      "prediction": 68
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 28,
+      "prediction": 47
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -6969,14 +6959,14 @@
       "prediction": 67
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 30,
-      "prediction": 4
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 29,
+      "prediction": 61
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 30,
-      "prediction": 3
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 29,
+      "prediction": 53
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -7209,14 +7199,14 @@
       "prediction": 2
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 31,
-      "prediction": 14
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 30,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 31,
-      "prediction": 16
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 30,
+      "prediction": 2
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -7449,14 +7439,14 @@
       "prediction": 9
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 32,
-      "prediction": 87
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 31,
+      "prediction": 7
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 32,
-      "prediction": 88
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 31,
+      "prediction": 7
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -7689,14 +7679,14 @@
       "prediction": 65
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 33,
-      "prediction": 237
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 32,
+      "prediction": 57
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 33,
-      "prediction": 219
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 32,
+      "prediction": 54
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -7929,14 +7919,14 @@
       "prediction": 159
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 34,
-      "prediction": 27
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 33,
+      "prediction": 139
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 34,
-      "prediction": 27
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 33,
+      "prediction": 130
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -8169,14 +8159,14 @@
       "prediction": 35
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 35,
-      "prediction": 224
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 34,
+      "prediction": 28
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 35,
-      "prediction": 225
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 34,
+      "prediction": 24
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -8409,14 +8399,14 @@
       "prediction": 184
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 36,
-      "prediction": 362
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 35,
+      "prediction": 158
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 36,
-      "prediction": 375
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 35,
+      "prediction": 144
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -8649,14 +8639,14 @@
       "prediction": 192
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 37,
-      "prediction": 492
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 36,
+      "prediction": 193
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 37,
-      "prediction": 512
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 36,
+      "prediction": 179
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -8889,14 +8879,14 @@
       "prediction": 292
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 38,
-      "prediction": 36
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 37,
+      "prediction": 270
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 38,
-      "prediction": 36
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 37,
+      "prediction": 253
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -9129,14 +9119,14 @@
       "prediction": 31
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 39,
-      "prediction": 263
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 38,
+      "prediction": 27
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 39,
-      "prediction": 260
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 38,
+      "prediction": 22
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -9369,14 +9359,14 @@
       "prediction": 213
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 40,
-      "prediction": 117
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 39,
+      "prediction": 189
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 40,
-      "prediction": 108
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 39,
+      "prediction": 162
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -9609,14 +9599,14 @@
       "prediction": 68
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 41,
-      "prediction": 295
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 40,
+      "prediction": 56
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 41,
-      "prediction": 278
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 40,
+      "prediction": 49
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -9849,14 +9839,14 @@
       "prediction": 229
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 42,
-      "prediction": 361
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 41,
+      "prediction": 194
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 42,
-      "prediction": 343
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 41,
+      "prediction": 176
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -10089,14 +10079,14 @@
       "prediction": 269
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 43,
-      "prediction": 222
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 42,
+      "prediction": 248
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 43,
-      "prediction": 195
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 42,
+      "prediction": 225
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -10329,14 +10319,14 @@
       "prediction": 129
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 44,
-      "prediction": 17
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 43,
+      "prediction": 99
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 44,
-      "prediction": 17
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 43,
+      "prediction": 90
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -10569,14 +10559,14 @@
       "prediction": 10
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 45,
-      "prediction": 126
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 44,
+      "prediction": 9
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 45,
-      "prediction": 144
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 44,
+      "prediction": 8
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -10809,14 +10799,14 @@
       "prediction": 84
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 46,
-      "prediction": 14
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 45,
+      "prediction": 85
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 46,
-      "prediction": 17
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 45,
+      "prediction": 90
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -11049,14 +11039,14 @@
       "prediction": 7
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 47,
-      "prediction": 106
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 46,
+      "prediction": 6
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 47,
-      "prediction": 111
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 46,
+      "prediction": 7
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -11289,14 +11279,14 @@
       "prediction": 86
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 48,
-      "prediction": 567
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 47,
+      "prediction": 73
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 48,
-      "prediction": 524
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 47,
+      "prediction": 71
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -11529,14 +11519,14 @@
       "prediction": 392
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 49,
-      "prediction": 298
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 48,
+      "prediction": 364
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 49,
-      "prediction": 274
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 48,
+      "prediction": 364
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -11769,14 +11759,14 @@
       "prediction": 189
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 50,
-      "prediction": 305
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 49,
+      "prediction": 166
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 50,
-      "prediction": 268
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 49,
+      "prediction": 150
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -12009,14 +11999,14 @@
       "prediction": 203
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 51,
-      "prediction": 182
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 50,
+      "prediction": 179
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 51,
-      "prediction": 181
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 50,
+      "prediction": 152
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -12249,14 +12239,14 @@
       "prediction": 128
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 52,
-      "prediction": 72
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 51,
+      "prediction": 116
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 52,
-      "prediction": 65
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 51,
+      "prediction": 112
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -12489,14 +12479,14 @@
       "prediction": 50
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 53,
-      "prediction": 48
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 52,
+      "prediction": 45
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 53,
-      "prediction": 50
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 52,
+      "prediction": 41
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -12729,14 +12719,14 @@
       "prediction": 35
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 54,
-      "prediction": 27
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 53,
+      "prediction": 30
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 54,
-      "prediction": 25
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 53,
+      "prediction": 29
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -12969,14 +12959,14 @@
       "prediction": 14
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 55,
-      "prediction": 112
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 54,
+      "prediction": 12
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 55,
-      "prediction": 115
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 54,
+      "prediction": 13
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -13209,14 +13199,14 @@
       "prediction": 86
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 56,
-      "prediction": 122
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 55,
+      "prediction": 70
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 56,
-      "prediction": 126
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 55,
+      "prediction": 71
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -13449,14 +13439,14 @@
       "prediction": 71
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 57,
-      "prediction": 12
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 56,
+      "prediction": 66
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 57,
-      "prediction": 11
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 56,
+      "prediction": 61
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -13689,14 +13679,14 @@
       "prediction": 6
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 58,
-      "prediction": 13
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 57,
+      "prediction": 4
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 58,
-      "prediction": 13
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 57,
+      "prediction": 4
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -13929,14 +13919,14 @@
       "prediction": 7
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 59,
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 58,
       "prediction": 7
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 59,
-      "prediction": 9
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 58,
+      "prediction": 7
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -14169,14 +14159,14 @@
       "prediction": 3
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 60,
-      "prediction": 81
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 59,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 60,
-      "prediction": 85
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 59,
+      "prediction": 3
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -14409,14 +14399,14 @@
       "prediction": 62
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 61,
-      "prediction": 579
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 60,
+      "prediction": 52
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 61,
-      "prediction": 586
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 60,
+      "prediction": 50
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -14649,14 +14639,14 @@
       "prediction": 401
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 62,
-      "prediction": 142
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 61,
+      "prediction": 373
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 62,
-      "prediction": 150
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 61,
+      "prediction": 332
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -14889,14 +14879,14 @@
       "prediction": 115
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 63,
-      "prediction": 124
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 62,
+      "prediction": 111
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 63,
-      "prediction": 127
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 62,
+      "prediction": 103
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -15129,14 +15119,14 @@
       "prediction": 82
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 64,
-      "prediction": 25
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 63,
+      "prediction": 73
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 64,
-      "prediction": 23
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 63,
+      "prediction": 69
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -15369,14 +15359,14 @@
       "prediction": 21
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 65,
-      "prediction": 250
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 64,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 65,
-      "prediction": 232
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 64,
+      "prediction": 14
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -15609,14 +15599,14 @@
       "prediction": 168
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 66,
-      "prediction": 194
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 65,
+      "prediction": 157
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 66,
-      "prediction": 183
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 65,
+      "prediction": 136
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -15849,14 +15839,14 @@
       "prediction": 141
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 67,
-      "prediction": 63
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 66,
+      "prediction": 123
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 67,
-      "prediction": 59
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 66,
+      "prediction": 117
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -16089,14 +16079,14 @@
       "prediction": 53
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 68,
-      "prediction": 652
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 67,
+      "prediction": 45
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 68,
-      "prediction": 618
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 67,
+      "prediction": 39
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -16329,14 +16319,14 @@
       "prediction": 530
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 69,
-      "prediction": 176
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 68,
+      "prediction": 459
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 69,
-      "prediction": 187
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 68,
+      "prediction": 460
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -16569,14 +16559,14 @@
       "prediction": 133
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 70,
-      "prediction": 101
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 69,
+      "prediction": 123
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 70,
-      "prediction": 100
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 69,
+      "prediction": 118
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -16809,14 +16799,14 @@
       "prediction": 93
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 71,
-      "prediction": 160
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 70,
+      "prediction": 86
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 71,
-      "prediction": 165
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 70,
+      "prediction": 85
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -17049,14 +17039,14 @@
       "prediction": 124
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 72,
-      "prediction": 184
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 71,
+      "prediction": 111
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 72,
-      "prediction": 191
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 71,
+      "prediction": 103
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -17289,14 +17279,14 @@
       "prediction": 145
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 73,
-      "prediction": 35
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 72,
+      "prediction": 132
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 73,
-      "prediction": 35
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 72,
+      "prediction": 122
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -17529,14 +17519,14 @@
       "prediction": 28
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 74,
-      "prediction": 299
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 73,
+      "prediction": 25
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 74,
-      "prediction": 293
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 73,
+      "prediction": 24
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -17769,14 +17759,14 @@
       "prediction": 233
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 75,
-      "prediction": 269
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 74,
+      "prediction": 215
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 75,
-      "prediction": 244
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 74,
+      "prediction": 203
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -18009,14 +17999,14 @@
       "prediction": 238
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 76,
-      "prediction": 398
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 75,
+      "prediction": 223
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 76,
-      "prediction": 397
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 75,
+      "prediction": 186
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -18249,14 +18239,14 @@
       "prediction": 326
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 77,
-      "prediction": 98
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 76,
+      "prediction": 289
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 77,
-      "prediction": 105
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 76,
+      "prediction": 268
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -18489,14 +18479,14 @@
       "prediction": 80
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 78,
-      "prediction": 145
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 77,
+      "prediction": 67
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 78,
-      "prediction": 145
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 77,
+      "prediction": 65
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -18729,14 +18719,14 @@
       "prediction": 116
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 79,
-      "prediction": 878
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 78,
+      "prediction": 101
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 79,
-      "prediction": 885
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 78,
+      "prediction": 96
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -18969,14 +18959,14 @@
       "prediction": 347
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 80,
-      "prediction": 423
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 79,
+      "prediction": 346
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 80,
-      "prediction": 423
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 79,
+      "prediction": 407
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -19209,14 +19199,14 @@
       "prediction": 184
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 81,
-      "prediction": 95
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 80,
+      "prediction": 183
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 81,
-      "prediction": 93
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 80,
+      "prediction": 167
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -19449,14 +19439,14 @@
       "prediction": 78
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 82,
-      "prediction": 303
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 81,
+      "prediction": 65
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 82,
-      "prediction": 301
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 81,
+      "prediction": 62
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -19689,14 +19679,14 @@
       "prediction": 214
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 83,
-      "prediction": 73
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 82,
+      "prediction": 206
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 83,
-      "prediction": 77
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 82,
+      "prediction": 194
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -19929,14 +19919,14 @@
       "prediction": 51
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 84,
-      "prediction": 19
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 83,
+      "prediction": 46
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 84,
-      "prediction": 18
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 83,
+      "prediction": 47
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -20169,14 +20159,14 @@
       "prediction": 12
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 85,
-      "prediction": 130
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 84,
+      "prediction": 10
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 85,
-      "prediction": 131
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 84,
+      "prediction": 9
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -20409,14 +20399,14 @@
       "prediction": 93
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 86,
-      "prediction": 61
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 85,
+      "prediction": 82
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 86,
-      "prediction": 60
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 85,
+      "prediction": 76
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -20649,14 +20639,14 @@
       "prediction": 54
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 87,
-      "prediction": 375
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 86,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 87,
-      "prediction": 368
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 86,
+      "prediction": 46
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -20889,14 +20879,14 @@
       "prediction": 229
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 88,
-      "prediction": 123
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 87,
+      "prediction": 196
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 88,
-      "prediction": 118
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 87,
+      "prediction": 195
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -21129,14 +21119,14 @@
       "prediction": 113
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 89,
-      "prediction": 323
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 88,
+      "prediction": 90
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 89,
-      "prediction": 312
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 88,
+      "prediction": 99
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -21369,14 +21359,14 @@
       "prediction": 257
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 90,
-      "prediction": 447
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 89,
+      "prediction": 238
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 90,
-      "prediction": 390
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 89,
+      "prediction": 213
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -21609,14 +21599,14 @@
       "prediction": 284
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 91,
-      "prediction": 169
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 90,
+      "prediction": 255
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 91,
-      "prediction": 164
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 90,
+      "prediction": 230
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -21849,14 +21839,14 @@
       "prediction": 143
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 92,
-      "prediction": 228
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 91,
+      "prediction": 126
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 92,
-      "prediction": 222
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 91,
+      "prediction": 107
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -22089,14 +22079,14 @@
       "prediction": 173
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 93,
-      "prediction": 146
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 92,
+      "prediction": 154
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 93,
-      "prediction": 87
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 92,
+      "prediction": 147
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -22329,14 +22319,14 @@
       "prediction": 13
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 94,
-      "prediction": 83
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 93,
+      "prediction": 11
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 94,
-      "prediction": 89
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 93,
+      "prediction": 11
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -22569,14 +22559,14 @@
       "prediction": 61
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 95,
-      "prediction": 257
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 94,
+      "prediction": 55
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 95,
-      "prediction": 236
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 94,
+      "prediction": 52
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -22809,14 +22799,14 @@
       "prediction": 229
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 96,
-      "prediction": 10
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 95,
+      "prediction": 198
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 96,
-      "prediction": 11
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 95,
+      "prediction": 156
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -23049,14 +23039,14 @@
       "prediction": 5
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 97,
-      "prediction": 328
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 96,
+      "prediction": 5
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 97,
-      "prediction": 320
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 96,
+      "prediction": 4
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -23289,14 +23279,14 @@
       "prediction": 202
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 98,
-      "prediction": 32
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 97,
+      "prediction": 190
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 98,
-      "prediction": 32
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 97,
+      "prediction": 179
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -23529,14 +23519,14 @@
       "prediction": 28
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 99,
-      "prediction": 1
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 98,
+      "prediction": 24
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 99,
-      "prediction": 1
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 98,
+      "prediction": 23
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -23769,14 +23759,14 @@
       "prediction": 1
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 100,
-      "prediction": 286
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 99,
+      "prediction": 1
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 100,
-      "prediction": 256
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 99,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -24009,14 +23999,14 @@
       "prediction": 324
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 101,
-      "prediction": 30
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 100,
+      "prediction": 285
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 101,
-      "prediction": 26
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 100,
+      "prediction": 265
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -24249,14 +24239,14 @@
       "prediction": 26
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 102,
-      "prediction": 99
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 101,
+      "prediction": 23
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 102,
-      "prediction": 99
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 101,
+      "prediction": 21
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -24489,13 +24479,13 @@
       "prediction": 71
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 105,
-      "prediction": 1
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 102,
+      "prediction": 61
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 105,
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 102,
       "prediction": 55
     },
     {
@@ -24729,14 +24719,14 @@
       "prediction": 58
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 106,
-      "prediction": 95
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 105,
+      "prediction": 58
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 106,
-      "prediction": 93
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 105,
+      "prediction": 58
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -24969,14 +24959,14 @@
       "prediction": 66
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 107,
-      "prediction": 521
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 106,
+      "prediction": 59
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 107,
-      "prediction": 487
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 106,
+      "prediction": 58
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -25209,14 +25199,14 @@
       "prediction": 311
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 108,
-      "prediction": 45
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 107,
+      "prediction": 287
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 108,
-      "prediction": 44
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 107,
+      "prediction": 274
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -25449,14 +25439,14 @@
       "prediction": 38
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 109,
-      "prediction": 24
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 108,
+      "prediction": 33
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 109,
-      "prediction": 24
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 108,
+      "prediction": 30
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -25689,14 +25679,14 @@
       "prediction": 16
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 110,
-      "prediction": 1
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 109,
+      "prediction": 14
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 110,
-      "prediction": 1
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 109,
+      "prediction": 12
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -25929,14 +25919,14 @@
       "prediction": 1
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 111,
-      "prediction": 2
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 110,
+      "prediction": 1
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 111,
-      "prediction": 2
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 110,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -26169,14 +26159,14 @@
       "prediction": 1
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 112,
-      "prediction": 520
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 111,
+      "prediction": 1
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 112,
-      "prediction": 490
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 111,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -26409,14 +26399,14 @@
       "prediction": 262
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 113,
-      "prediction": 346
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 112,
+      "prediction": 235
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 113,
-      "prediction": 325
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 112,
+      "prediction": 202
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -26649,14 +26639,14 @@
       "prediction": 266
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 114,
-      "prediction": 390
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 113,
+      "prediction": 252
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 114,
-      "prediction": 393
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 113,
+      "prediction": 246
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -26889,14 +26879,14 @@
       "prediction": 211
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 115,
-      "prediction": 24
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 114,
+      "prediction": 222
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 115,
-      "prediction": 23
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 114,
+      "prediction": 254
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -27129,14 +27119,14 @@
       "prediction": 18
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 116,
-      "prediction": 176
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 115,
+      "prediction": 15
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 116,
-      "prediction": 174
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 115,
+      "prediction": 14
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -27369,14 +27359,14 @@
       "prediction": 131
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 117,
-      "prediction": 60
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 116,
+      "prediction": 116
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 117,
-      "prediction": 58
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 116,
+      "prediction": 109
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -27609,14 +27599,14 @@
       "prediction": 47
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 118,
-      "prediction": 54
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 117,
+      "prediction": 41
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 118,
-      "prediction": 53
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 117,
+      "prediction": 39
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -27849,14 +27839,14 @@
       "prediction": 40
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 119,
-      "prediction": 113
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 118,
+      "prediction": 37
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 119,
-      "prediction": 118
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 118,
+      "prediction": 28
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -28089,14 +28079,14 @@
       "prediction": 81
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 120,
-      "prediction": 4
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 119,
+      "prediction": 73
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 120,
-      "prediction": 4
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 119,
+      "prediction": 72
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -28329,14 +28319,14 @@
       "prediction": 3
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 121,
-      "prediction": 61
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 120,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 121,
-      "prediction": 58
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 120,
+      "prediction": 2
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -28569,14 +28559,14 @@
       "prediction": 58
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 122,
-      "prediction": 38
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 121,
+      "prediction": 52
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 122,
-      "prediction": 37
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 121,
+      "prediction": 47
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -28809,14 +28799,14 @@
       "prediction": 29
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 123,
-      "prediction": 69
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 122,
+      "prediction": 26
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 123,
-      "prediction": 73
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 122,
+      "prediction": 22
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -29049,14 +29039,14 @@
       "prediction": 96
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 124,
-      "prediction": 58
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 123,
+      "prediction": 89
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 124,
-      "prediction": 56
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 123,
+      "prediction": 69
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -29289,14 +29279,14 @@
       "prediction": 47
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 125,
-      "prediction": 194
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 124,
+      "prediction": 41
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 125,
-      "prediction": 183
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 124,
+      "prediction": 40
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -29529,14 +29519,14 @@
       "prediction": 132
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 126,
-      "prediction": 100
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 125,
+      "prediction": 113
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 126,
-      "prediction": 102
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 125,
+      "prediction": 106
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -29769,14 +29759,14 @@
       "prediction": 93
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 127,
-      "prediction": 129
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 126,
+      "prediction": 77
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 127,
-      "prediction": 133
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 126,
+      "prediction": 72
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -30009,14 +29999,14 @@
       "prediction": 95
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 128,
-      "prediction": 13
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 127,
+      "prediction": 80
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 128,
-      "prediction": 10
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 127,
+      "prediction": 79
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -30249,14 +30239,14 @@
       "prediction": 8
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 129,
-      "prediction": 292
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 128,
+      "prediction": 11
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 129,
-      "prediction": 294
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 128,
+      "prediction": 9
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -30489,14 +30479,14 @@
       "prediction": 218
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 130,
-      "prediction": 293
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 129,
+      "prediction": 192
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 130,
-      "prediction": 283
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 129,
+      "prediction": 183
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -30729,14 +30719,14 @@
       "prediction": 257
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 131,
-      "prediction": 49
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 130,
+      "prediction": 220
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 131,
-      "prediction": 47
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 130,
+      "prediction": 193
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -30969,14 +30959,14 @@
       "prediction": 49
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 132,
-      "prediction": 862
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 131,
+      "prediction": 41
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 132,
-      "prediction": 881
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 131,
+      "prediction": 36
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -31209,14 +31199,14 @@
       "prediction": 998
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 133,
-      "prediction": 72
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 132,
+      "prediction": 1020
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 133,
-      "prediction": 68
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 132,
+      "prediction": 1100
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -31449,14 +31439,14 @@
       "prediction": 60
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 134,
-      "prediction": 72
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 133,
+      "prediction": 51
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 134,
-      "prediction": 67
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 133,
+      "prediction": 45
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -31689,14 +31679,14 @@
       "prediction": 73
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 135,
-      "prediction": 44
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 134,
+      "prediction": 53
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 135,
-      "prediction": 48
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 134,
+      "prediction": 43
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -31929,14 +31919,14 @@
       "prediction": 52
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 136,
-      "prediction": 95
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 135,
+      "prediction": 44
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 136,
-      "prediction": 100
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 135,
+      "prediction": 41
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -32169,14 +32159,14 @@
       "prediction": 66
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 137,
-      "prediction": 351
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 136,
+      "prediction": 63
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 137,
-      "prediction": 307
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 136,
+      "prediction": 61
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -32409,14 +32399,14 @@
       "prediction": 233
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 138,
-      "prediction": 571
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 137,
+      "prediction": 228
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 138,
-      "prediction": 493
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 137,
+      "prediction": 190
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -32649,14 +32639,14 @@
       "prediction": 968
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 139,
-      "prediction": 63
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 138,
+      "prediction": 962
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 139,
-      "prediction": 63
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 138,
+      "prediction": 1002
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -32889,14 +32879,14 @@
       "prediction": 56
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 140,
-      "prediction": 332
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 139,
+      "prediction": 47
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 140,
-      "prediction": 265
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 139,
+      "prediction": 43
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -33129,14 +33119,14 @@
       "prediction": 347
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 141,
-      "prediction": 450
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 140,
+      "prediction": 310
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 141,
-      "prediction": 383
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 140,
+      "prediction": 222
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -33369,14 +33359,14 @@
       "prediction": 329
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 142,
-      "prediction": 506
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 141,
+      "prediction": 288
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 142,
-      "prediction": 412
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 141,
+      "prediction": 261
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -33609,14 +33599,14 @@
       "prediction": 398
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 143,
-      "prediction": 280
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 142,
+      "prediction": 339
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 143,
-      "prediction": 210
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 142,
+      "prediction": 330
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -33849,14 +33839,14 @@
       "prediction": 221
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 144,
-      "prediction": 453
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 143,
+      "prediction": 175
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 144,
-      "prediction": 450
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 143,
+      "prediction": 134
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -34089,14 +34079,14 @@
       "prediction": 294
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 145,
-      "prediction": 422
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 144,
+      "prediction": 290
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 145,
-      "prediction": 390
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 144,
+      "prediction": 281
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -34329,14 +34319,14 @@
       "prediction": 284
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 146,
-      "prediction": 120
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 145,
+      "prediction": 233
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 146,
-      "prediction": 113
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 145,
+      "prediction": 208
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -34569,14 +34559,14 @@
       "prediction": 83
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 147,
-      "prediction": 73
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 146,
+      "prediction": 65
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 147,
-      "prediction": 78
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 146,
+      "prediction": 58
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -34809,14 +34799,14 @@
       "prediction": 55
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 148,
-      "prediction": 542
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 147,
+      "prediction": 47
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 148,
-      "prediction": 599
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 147,
+      "prediction": 46
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -35049,14 +35039,14 @@
       "prediction": 243
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 149,
-      "prediction": 70
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 148,
+      "prediction": 253
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 149,
-      "prediction": 69
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 148,
+      "prediction": 262
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -35289,14 +35279,14 @@
       "prediction": 79
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 150,
-      "prediction": 39
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 149,
+      "prediction": 70
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 150,
-      "prediction": 44
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 149,
+      "prediction": 58
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -35529,14 +35519,14 @@
       "prediction": 32
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 151,
-      "prediction": 175
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 150,
+      "prediction": 28
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 151,
-      "prediction": 155
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 150,
+      "prediction": 28
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -35769,14 +35759,14 @@
       "prediction": 150
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 152,
-      "prediction": 92
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 151,
+      "prediction": 121
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 152,
-      "prediction": 93
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 151,
+      "prediction": 100
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -36009,14 +35999,14 @@
       "prediction": 71
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 153,
-      "prediction": 41
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 152,
+      "prediction": 62
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 153,
-      "prediction": 41
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 152,
+      "prediction": 53
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -36249,14 +36239,14 @@
       "prediction": 36
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 154,
-      "prediction": 6
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 153,
+      "prediction": 32
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 154,
-      "prediction": 7
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 153,
+      "prediction": 30
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -36489,14 +36479,14 @@
       "prediction": 4
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 155,
-      "prediction": 116
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 154,
+      "prediction": 4
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 155,
-      "prediction": 112
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 154,
+      "prediction": 4
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -36729,14 +36719,14 @@
       "prediction": 100
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 156,
-      "prediction": 42
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 155,
+      "prediction": 83
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 156,
-      "prediction": 37
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 155,
+      "prediction": 77
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -36969,14 +36959,14 @@
       "prediction": 46
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 157,
-      "prediction": 117
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 156,
+      "prediction": 30
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 157,
-      "prediction": 118
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 156,
+      "prediction": 26
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -37209,14 +37199,14 @@
       "prediction": 69
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 158,
-      "prediction": 384
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 157,
+      "prediction": 55
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 158,
-      "prediction": 349
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 157,
+      "prediction": 51
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -37449,14 +37439,14 @@
       "prediction": 217
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 159,
-      "prediction": 151
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 158,
+      "prediction": 199
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 159,
-      "prediction": 157
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 158,
+      "prediction": 208
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -37689,14 +37679,14 @@
       "prediction": 140
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 160,
-      "prediction": 85
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 159,
+      "prediction": 125
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 160,
-      "prediction": 80
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 159,
+      "prediction": 115
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -37929,14 +37919,14 @@
       "prediction": 63
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 161,
-      "prediction": 633
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 160,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 161,
-      "prediction": 476
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 160,
+      "prediction": 44
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -38169,14 +38159,14 @@
       "prediction": 876
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 162,
-      "prediction": 455
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 161,
+      "prediction": 827
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 162,
-      "prediction": 368
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 161,
+      "prediction": 881
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -38409,14 +38399,14 @@
       "prediction": 535
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 163,
-      "prediction": 533
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 162,
+      "prediction": 470
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 163,
-      "prediction": 394
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 162,
+      "prediction": 543
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -38649,14 +38639,14 @@
       "prediction": 511
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 164,
-      "prediction": 604
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 163,
+      "prediction": 424
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 164,
-      "prediction": 541
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 163,
+      "prediction": 476
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -38889,14 +38879,14 @@
       "prediction": 469
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 165,
-      "prediction": 72
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 164,
+      "prediction": 429
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 165,
-      "prediction": 73
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 164,
+      "prediction": 429
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -39129,14 +39119,14 @@
       "prediction": 105
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 166,
-      "prediction": 157
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 165,
+      "prediction": 87
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 166,
-      "prediction": 144
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 165,
+      "prediction": 76
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -39369,14 +39359,14 @@
       "prediction": 157
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 167,
-      "prediction": 125
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 166,
+      "prediction": 131
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 167,
-      "prediction": 128
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 166,
+      "prediction": 130
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -39609,14 +39599,14 @@
       "prediction": 89
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 168,
-      "prediction": 225
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 167,
+      "prediction": 77
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 168,
-      "prediction": 227
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 167,
+      "prediction": 75
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -39849,14 +39839,14 @@
       "prediction": 176
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 169,
-      "prediction": 177
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 168,
+      "prediction": 151
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 169,
-      "prediction": 181
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 168,
+      "prediction": 144
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -40089,14 +40079,14 @@
       "prediction": 135
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 170,
-      "prediction": 604
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 169,
+      "prediction": 123
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 170,
-      "prediction": 535
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 169,
+      "prediction": 111
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -40329,14 +40319,14 @@
       "prediction": 469
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 171,
-      "prediction": 70
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 170,
+      "prediction": 420
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 171,
-      "prediction": 72
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 170,
+      "prediction": 400
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -40569,14 +40559,14 @@
       "prediction": 53
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 172,
-      "prediction": 21
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 171,
+      "prediction": 46
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 172,
-      "prediction": 22
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 171,
+      "prediction": 45
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -40809,14 +40799,14 @@
       "prediction": 20
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 173,
-      "prediction": 101
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 172,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 173,
-      "prediction": 106
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 172,
+      "prediction": 15
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -41049,14 +41039,14 @@
       "prediction": 58
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 174,
-      "prediction": 145
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 173,
+      "prediction": 53
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 174,
-      "prediction": 141
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 173,
+      "prediction": 53
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -41289,14 +41279,14 @@
       "prediction": 124
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 175,
-      "prediction": 21
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 174,
+      "prediction": 110
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 175,
-      "prediction": 20
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 174,
+      "prediction": 97
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -41529,14 +41519,14 @@
       "prediction": 20
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 176,
-      "prediction": 13
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 175,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 176,
-      "prediction": 12
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 175,
+      "prediction": 16
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -41769,14 +41759,14 @@
       "prediction": 9
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 177,
-      "prediction": 171
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 176,
+      "prediction": 7
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 177,
-      "prediction": 179
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 176,
+      "prediction": 6
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -42009,14 +41999,14 @@
       "prediction": 120
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 178,
-      "prediction": 17
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 177,
+      "prediction": 110
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 178,
-      "prediction": 22
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 177,
+      "prediction": 102
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -42249,14 +42239,14 @@
       "prediction": 36
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 179,
-      "prediction": 155
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 178,
+      "prediction": 31
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 179,
-      "prediction": 142
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 178,
+      "prediction": 24
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -42489,14 +42479,14 @@
       "prediction": 102
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 180,
-      "prediction": 62
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 179,
+      "prediction": 89
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 180,
-      "prediction": 63
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 179,
+      "prediction": 76
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -42729,14 +42719,14 @@
       "prediction": 53
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 181,
-      "prediction": 476
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 180,
+      "prediction": 46
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 181,
-      "prediction": 452
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 180,
+      "prediction": 43
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -42969,14 +42959,14 @@
       "prediction": 296
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 182,
-      "prediction": 92
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 181,
+      "prediction": 267
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 182,
-      "prediction": 89
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 181,
+      "prediction": 253
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -43209,14 +43199,14 @@
       "prediction": 71
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 183,
-      "prediction": 48
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 182,
+      "prediction": 58
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 183,
-      "prediction": 47
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 182,
+      "prediction": 56
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -43449,14 +43439,14 @@
       "prediction": 41
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 184,
-      "prediction": 18
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 183,
+      "prediction": 33
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 184,
-      "prediction": 13
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 183,
+      "prediction": 28
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -43689,14 +43679,14 @@
       "prediction": 12
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 185,
-      "prediction": 106
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 184,
+      "prediction": 9
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 185,
-      "prediction": 103
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 184,
+      "prediction": 7
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -43929,14 +43919,14 @@
       "prediction": 95
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 186,
-      "prediction": 438
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 185,
+      "prediction": 84
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 186,
-      "prediction": 381
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 185,
+      "prediction": 77
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -44169,14 +44159,14 @@
       "prediction": 397
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 187,
-      "prediction": 24
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 186,
+      "prediction": 338
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 187,
-      "prediction": 22
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 186,
+      "prediction": 327
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -44409,14 +44399,14 @@
       "prediction": 20
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 188,
-      "prediction": 320
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 187,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 188,
-      "prediction": 316
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 187,
+      "prediction": 14
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -44649,14 +44639,14 @@
       "prediction": 243
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 189,
-      "prediction": 198
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 188,
+      "prediction": 219
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 189,
-      "prediction": 183
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 188,
+      "prediction": 203
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -44889,14 +44879,14 @@
       "prediction": 107
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 190,
-      "prediction": 38
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 189,
+      "prediction": 95
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 190,
-      "prediction": 41
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 189,
+      "prediction": 91
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -45129,14 +45119,14 @@
       "prediction": 17
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 191,
-      "prediction": 95
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 190,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 191,
-      "prediction": 92
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 190,
+      "prediction": 12
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -45369,14 +45359,14 @@
       "prediction": 74
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 192,
-      "prediction": 45
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 191,
+      "prediction": 62
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 192,
-      "prediction": 45
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 191,
+      "prediction": 52
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -45609,14 +45599,14 @@
       "prediction": 36
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 193,
-      "prediction": 51
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 192,
+      "prediction": 35
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 193,
-      "prediction": 46
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 192,
+      "prediction": 34
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -45849,14 +45839,14 @@
       "prediction": 49
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 194,
-      "prediction": 8
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 193,
+      "prediction": 44
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 194,
-      "prediction": 7
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 193,
+      "prediction": 36
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -46089,14 +46079,14 @@
       "prediction": 6
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 195,
-      "prediction": 119
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 194,
+      "prediction": 4
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 195,
-      "prediction": 119
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 194,
+      "prediction": 6
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -46329,14 +46319,14 @@
       "prediction": 65
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 196,
-      "prediction": 99
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 195,
+      "prediction": 53
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 196,
-      "prediction": 85
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 195,
+      "prediction": 47
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -46569,14 +46559,14 @@
       "prediction": 95
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 197,
-      "prediction": 159
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 196,
+      "prediction": 80
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 197,
-      "prediction": 154
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 196,
+      "prediction": 69
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -46809,14 +46799,14 @@
       "prediction": 116
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 198,
-      "prediction": 277
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 197,
+      "prediction": 106
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 198,
-      "prediction": 269
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 197,
+      "prediction": 94
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -47049,14 +47039,14 @@
       "prediction": 167
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 199,
-      "prediction": 1
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 198,
+      "prediction": 163
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 199,
-      "prediction": 1
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 198,
+      "prediction": 145
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -47289,14 +47279,14 @@
       "prediction": 58
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 200,
-      "prediction": 57
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 199,
+      "prediction": 1
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 200,
-      "prediction": 56
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 199,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -47529,14 +47519,14 @@
       "prediction": 57
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 201,
-      "prediction": 46
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 200,
+      "prediction": 43
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 201,
-      "prediction": 44
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 200,
+      "prediction": 37
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -47769,14 +47759,14 @@
       "prediction": 25
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 202,
-      "prediction": 32
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 201,
+      "prediction": 20
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 202,
-      "prediction": 29
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 201,
+      "prediction": 17
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -48009,14 +47999,14 @@
       "prediction": 19
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 203,
-      "prediction": 58
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 202,
+      "prediction": 17
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 203,
-      "prediction": 58
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 202,
+      "prediction": 16
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -48249,14 +48239,14 @@
       "prediction": 61
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 204,
-      "prediction": 12
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 203,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 204,
-      "prediction": 11
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 203,
+      "prediction": 42
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -48489,14 +48479,14 @@
       "prediction": 6
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 205,
-      "prediction": 137
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 204,
+      "prediction": 5
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 205,
-      "prediction": 134
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 204,
+      "prediction": 4
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -48729,14 +48719,14 @@
       "prediction": 114
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 206,
-      "prediction": 68
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 205,
+      "prediction": 97
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 206,
-      "prediction": 69
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 205,
+      "prediction": 88
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -48969,14 +48959,14 @@
       "prediction": 63
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 207,
-      "prediction": 2
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 206,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 207,
-      "prediction": 3
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 206,
+      "prediction": 45
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -49209,14 +49199,14 @@
       "prediction": 3
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 208,
-      "prediction": 115
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 207,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 208,
-      "prediction": 124
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 207,
+      "prediction": 2
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -49449,14 +49439,14 @@
       "prediction": 80
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 209,
-      "prediction": 141
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 208,
+      "prediction": 67
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 209,
-      "prediction": 143
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 208,
+      "prediction": 67
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -49689,14 +49679,14 @@
       "prediction": 78
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 210,
-      "prediction": 107
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 209,
+      "prediction": 69
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 210,
-      "prediction": 105
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 209,
+      "prediction": 76
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -49929,14 +49919,14 @@
       "prediction": 104
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 211,
-      "prediction": 379
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 210,
+      "prediction": 86
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 211,
-      "prediction": 314
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 210,
+      "prediction": 74
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -50169,14 +50159,14 @@
       "prediction": 243
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 212,
-      "prediction": 94
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 211,
+      "prediction": 229
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 212,
-      "prediction": 99
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 211,
+      "prediction": 196
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -50409,14 +50399,14 @@
       "prediction": 74
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 213,
-      "prediction": 170
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 212,
+      "prediction": 65
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 213,
-      "prediction": 178
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 212,
+      "prediction": 66
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -50649,14 +50639,14 @@
       "prediction": 132
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 214,
-      "prediction": 27
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 213,
+      "prediction": 119
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 214,
-      "prediction": 24
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 213,
+      "prediction": 117
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -50889,14 +50879,14 @@
       "prediction": 24
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 215,
-      "prediction": 97
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 214,
+      "prediction": 20
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 215,
-      "prediction": 96
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 214,
+      "prediction": 19
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -51129,14 +51119,14 @@
       "prediction": 75
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 216,
-      "prediction": 265
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 215,
+      "prediction": 63
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 216,
-      "prediction": 253
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 215,
+      "prediction": 57
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -51369,14 +51359,14 @@
       "prediction": 190
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 217,
-      "prediction": 29
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 216,
+      "prediction": 180
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 217,
-      "prediction": 35
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 216,
+      "prediction": 156
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -51609,14 +51599,14 @@
       "prediction": 61
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 218,
-      "prediction": 70
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 217,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 218,
-      "prediction": 69
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 217,
+      "prediction": 41
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -51849,14 +51839,14 @@
       "prediction": 59
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 219,
-      "prediction": 55
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 218,
+      "prediction": 49
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 219,
-      "prediction": 51
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 218,
+      "prediction": 45
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -52089,14 +52079,14 @@
       "prediction": 47
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 220,
-      "prediction": 128
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 219,
+      "prediction": 39
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 220,
-      "prediction": 129
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 219,
+      "prediction": 34
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -52329,14 +52319,14 @@
       "prediction": 115
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 221,
-      "prediction": 46
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 220,
+      "prediction": 100
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 221,
-      "prediction": 43
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 220,
+      "prediction": 86
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -52569,14 +52559,14 @@
       "prediction": 36
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 222,
-      "prediction": 37
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 221,
+      "prediction": 29
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 222,
-      "prediction": 37
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 221,
+      "prediction": 27
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -52809,14 +52799,14 @@
       "prediction": 31
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 223,
-      "prediction": 209
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 222,
+      "prediction": 26
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 223,
-      "prediction": 201
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 222,
+      "prediction": 23
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -53049,14 +53039,14 @@
       "prediction": 140
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 224,
-      "prediction": 131
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 223,
+      "prediction": 121
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 224,
-      "prediction": 116
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 223,
+      "prediction": 113
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -53289,14 +53279,14 @@
       "prediction": 67
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 225,
-      "prediction": 386
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 224,
+      "prediction": 57
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 225,
-      "prediction": 391
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 224,
+      "prediction": 44
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -53529,14 +53519,14 @@
       "prediction": 231
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 226,
-      "prediction": 240
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 225,
+      "prediction": 217
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 226,
-      "prediction": 223
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 225,
+      "prediction": 196
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -53769,14 +53759,14 @@
       "prediction": 203
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 227,
-      "prediction": 87
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 226,
+      "prediction": 175
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 227,
-      "prediction": 87
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 226,
+      "prediction": 152
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -54009,14 +53999,14 @@
       "prediction": 67
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 228,
-      "prediction": 216
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 227,
+      "prediction": 59
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 228,
-      "prediction": 197
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 227,
+      "prediction": 57
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -54249,14 +54239,14 @@
       "prediction": 167
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 229,
-      "prediction": 385
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 228,
+      "prediction": 143
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 229,
-      "prediction": 335
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 228,
+      "prediction": 123
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -54489,14 +54479,14 @@
       "prediction": 288
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 230,
-      "prediction": 534
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 229,
+      "prediction": 257
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 230,
-      "prediction": 489
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 229,
+      "prediction": 244
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -54729,14 +54719,14 @@
       "prediction": 568
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 231,
-      "prediction": 597
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 230,
+      "prediction": 503
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 231,
-      "prediction": 547
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 230,
+      "prediction": 577
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -54969,14 +54959,14 @@
       "prediction": 425
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 232,
-      "prediction": 224
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 231,
+      "prediction": 373
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 232,
-      "prediction": 214
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 231,
+      "prediction": 358
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -55209,14 +55199,14 @@
       "prediction": 135
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 233,
-      "prediction": 369
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 232,
+      "prediction": 119
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 233,
-      "prediction": 320
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 232,
+      "prediction": 109
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -55449,14 +55439,14 @@
       "prediction": 279
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 234,
-      "prediction": 596
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 233,
+      "prediction": 243
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 234,
-      "prediction": 557
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 233,
+      "prediction": 209
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -55689,14 +55679,14 @@
       "prediction": 514
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 235,
-      "prediction": 149
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 234,
+      "prediction": 461
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 235,
-      "prediction": 157
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 234,
+      "prediction": 461
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -55929,14 +55919,14 @@
       "prediction": 106
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 236,
-      "prediction": 470
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 235,
+      "prediction": 98
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 236,
-      "prediction": 379
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 235,
+      "prediction": 96
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -56169,14 +56159,14 @@
       "prediction": 477
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 237,
-      "prediction": 529
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 236,
+      "prediction": 346
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 237,
-      "prediction": 417
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 236,
+      "prediction": 293
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -56409,14 +56399,14 @@
       "prediction": 519
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 238,
-      "prediction": 296
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 237,
+      "prediction": 421
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 238,
-      "prediction": 241
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 237,
+      "prediction": 393
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -56649,14 +56639,14 @@
       "prediction": 268
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 239,
-      "prediction": 424
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 238,
+      "prediction": 218
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 239,
-      "prediction": 359
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 238,
+      "prediction": 177
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -56889,14 +56879,14 @@
       "prediction": 359
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 240,
-      "prediction": 27
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 239,
+      "prediction": 274
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 240,
-      "prediction": 31
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 239,
+      "prediction": 253
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -57129,14 +57119,14 @@
       "prediction": 20
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 241,
-      "prediction": 133
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 240,
+      "prediction": 17
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 241,
-      "prediction": 142
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 240,
+      "prediction": 16
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -57369,14 +57359,14 @@
       "prediction": 95
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 242,
-      "prediction": 116
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 241,
+      "prediction": 87
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 242,
-      "prediction": 105
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 241,
+      "prediction": 92
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -57609,14 +57599,14 @@
       "prediction": 113
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 243,
-      "prediction": 202
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 242,
+      "prediction": 105
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 243,
-      "prediction": 206
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 242,
+      "prediction": 86
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -57849,14 +57839,14 @@
       "prediction": 147
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 244,
-      "prediction": 291
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 243,
+      "prediction": 128
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 244,
-      "prediction": 288
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 243,
+      "prediction": 125
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -58089,14 +58079,14 @@
       "prediction": 239
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 245,
-      "prediction": 27
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 244,
+      "prediction": 223
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 245,
-      "prediction": 25
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 244,
+      "prediction": 205
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -58329,14 +58319,14 @@
       "prediction": 19
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 246,
-      "prediction": 619
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 245,
+      "prediction": 16
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 246,
-      "prediction": 522
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 245,
+      "prediction": 16
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -58569,14 +58559,14 @@
       "prediction": 514
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 247,
-      "prediction": 198
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 246,
+      "prediction": 420
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 247,
-      "prediction": 207
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 246,
+      "prediction": 439
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -58809,14 +58799,14 @@
       "prediction": 153
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 248,
-      "prediction": 91
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 247,
+      "prediction": 138
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 248,
-      "prediction": 94
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 247,
+      "prediction": 139
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -59049,14 +59039,14 @@
       "prediction": 61
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 249,
-      "prediction": 676
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 248,
+      "prediction": 58
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 249,
-      "prediction": 687
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 248,
+      "prediction": 55
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -59289,14 +59279,14 @@
       "prediction": 278
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 250,
-      "prediction": 81
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 249,
+      "prediction": 282
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 250,
-      "prediction": 78
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 249,
+      "prediction": 314
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -59529,14 +59519,14 @@
       "prediction": 66
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 251,
-      "prediction": 28
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 250,
+      "prediction": 53
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 251,
-      "prediction": 24
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 250,
+      "prediction": 49
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -59769,14 +59759,14 @@
       "prediction": 25
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 252,
-      "prediction": 53
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 251,
+      "prediction": 21
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 252,
-      "prediction": 49
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 251,
+      "prediction": 15
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -60009,14 +59999,14 @@
       "prediction": 41
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 253,
-      "prediction": 5
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 252,
+      "prediction": 33
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 253,
-      "prediction": 4
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 252,
+      "prediction": 31
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -60249,14 +60239,14 @@
       "prediction": 2
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 254,
-      "prediction": 168
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 253,
+      "prediction": 2
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 254,
-      "prediction": 165
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 253,
+      "prediction": 1
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -60489,14 +60479,14 @@
       "prediction": 132
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 255,
-      "prediction": 638
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 254,
+      "prediction": 116
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 255,
-      "prediction": 638
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 254,
+      "prediction": 111
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -60729,14 +60719,14 @@
       "prediction": 293
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 256,
-      "prediction": 475
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 255,
+      "prediction": 288
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 256,
-      "prediction": 490
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 255,
+      "prediction": 281
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -60969,14 +60959,14 @@
       "prediction": 205
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 257,
-      "prediction": 66
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 256,
+      "prediction": 216
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 257,
-      "prediction": 59
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 256,
+      "prediction": 204
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -61209,14 +61199,14 @@
       "prediction": 43
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 258,
-      "prediction": 121
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 257,
+      "prediction": 34
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 258,
-      "prediction": 119
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 257,
+      "prediction": 32
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -61449,14 +61439,14 @@
       "prediction": 82
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 259,
-      "prediction": 111
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 258,
+      "prediction": 73
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 259,
-      "prediction": 107
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 258,
+      "prediction": 68
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -61689,14 +61679,14 @@
       "prediction": 87
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 260,
-      "prediction": 178
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 259,
+      "prediction": 72
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 260,
-      "prediction": 171
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 259,
+      "prediction": 66
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -61929,14 +61919,14 @@
       "prediction": 130
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 261,
-      "prediction": 214
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 260,
+      "prediction": 113
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 261,
-      "prediction": 190
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 260,
+      "prediction": 106
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -62169,14 +62159,14 @@
       "prediction": 192
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 262,
-      "prediction": 219
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 261,
+      "prediction": 156
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 262,
-      "prediction": 171
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 261,
+      "prediction": 146
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -62409,14 +62399,14 @@
       "prediction": 185
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 263,
-      "prediction": 347
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 262,
+      "prediction": 149
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 263,
-      "prediction": 307
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 262,
+      "prediction": 109
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -62649,14 +62639,14 @@
       "prediction": 255
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 264,
-      "prediction": 34
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 263,
+      "prediction": 234
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 264,
-      "prediction": 31
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 263,
+      "prediction": 209
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -62889,14 +62879,14 @@
       "prediction": 27
     },
     {
-      "hour": "2026-06-27T19:00:00-04:00",
-      "PULocationID": 265,
-      "prediction": 5
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 264,
+      "prediction": 24
     },
     {
-      "hour": "2026-06-27T20:00:00-04:00",
-      "PULocationID": 265,
-      "prediction": 5
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 264,
+      "prediction": 22
     },
     {
       "hour": "2026-06-27T21:00:00-04:00",
@@ -63127,6 +63117,16 @@
       "hour": "2026-06-29T18:00:00-04:00",
       "PULocationID": 265,
       "prediction": 5
+    },
+    {
+      "hour": "2026-06-29T19:00:00-04:00",
+      "PULocationID": 265,
+      "prediction": 4
+    },
+    {
+      "hour": "2026-06-29T20:00:00-04:00",
+      "PULocationID": 265,
+      "prediction": 4
     }
   ]
 }
